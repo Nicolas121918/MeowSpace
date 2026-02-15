@@ -1,12 +1,5 @@
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome file</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
-</head>
-
 <body class="stackedit">
   <div class="stackedit__html"><h1 id="🐱-meowspace-full-stack-app">🐱 MeowSpace Full-Stack App</h1>
 <p>Este proyecto es una aplicación <strong>Fullstack</strong> integral diseñada para la gestión y consulta de razas de gatos. El sistema permite consumir datos de una API externa, gestionar información de usuarios y persistir datos en una base de datos distribuida en la nube.</p>
