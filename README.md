@@ -93,8 +93,8 @@
 <p>Sigue estos pasos para levantar el proyecto completo en tu máquina local:</p>
 <h3 id="clonar-el-repositorio"><strong>1. Clonar el repositorio</strong></h3>
 <p>Bash</p>
-<pre><code>git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-cd TU_REPOSITORIO
+<pre><code>git clone https://github.com/Nicolas121918/MeowSpace.git
+cd apicat
 
 </code></pre>
 <h3 id="levantar-la-infraestructura-con-docker"><strong>2. Levantar la infraestructura con Docker</strong></h3>
