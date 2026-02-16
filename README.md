@@ -133,6 +133,17 @@ cd App-fullstack
 </ul>
 <hr>
 
+
+⚠️ Nota sobre el estado del Frontend
+Debido a un error crítico de sincronización en Git y una limpieza accidental de archivos locales tras el despliegue en Docker, el código fuente del Frontend en este repositorio no refleja la versión final funcional, Actualmente El frontend esta corriendo por Medio de El docker que Este Al dockerizar los archivos antes de El incidente quedo totalmente funcional.
+
+Para validar el cumplimiento de los requerimientos técnicos, se han incluido:
+Demostración en Video: https://github.com/user-attachments/assets/a156fe42-d4ff-40c3-909e-03e708e96697,
+donde se muestra la integración total con el Backend, manejo de estados y consumo de APIs.
+Arquitectura del Backend: El código del servidor está 100% íntegro y funcional, demostrando la lógica de negocio y estructura solicitada.
+Estructura Base: Se han recreado los componentes principales para mostrar la organización del proyecto y clean architecture.
+Estoy totalmente disponible para reconstruir la lógica de conexión del Front o realizar una Live Coding session para demostrar que el conocimiento aplicado en el video es de mi autoría.
+
 <body class="stackedit">
   <div class="stackedit__html"><h2 id="📺-video-demostrativo-del-proyecto-para-visualizar-el-funcionamiento-completo-del-sistema-frontend-backend-e-integración-con-mongodb-atlas">📺 Video Demostrativo del Proyecto Para visualizar el funcionamiento completo del sistema (Frontend, Backend e integración con MongoDB Atlas)</h2>
 <p><a href="https://github.com/user-attachments/assets/a156fe42-d4ff-40c3-909e-03e708e96697">https://github.com/user-attachments/assets/a156fe42-d4ff-40c3-909e-03e708e96697</a></p>
