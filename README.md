@@ -94,7 +94,7 @@
 <h3 id="clonar-el-repositorio"><strong>1. Clonar el repositorio</strong></h3>
 <p>Bash</p>
 <pre><code>git clone https://github.com/Nicolas121918/MeowSpace.git
-cd apicat
+cd App-fullstack
 
 </code></pre>
 <h3 id="levantar-la-infraestructura-con-docker"><strong>2. Levantar la infraestructura con Docker</strong></h3>
@@ -121,6 +121,7 @@ cd apicat
 </li>
 <li>
 <p>✅ Archivos de configuración <strong>Docker</strong> y <strong>Docker Compose</strong>.</p>
+
 </li>
 <li>
 <p>✅ Documentación técnica en formato <strong>PDF</strong>.</p>
@@ -134,5 +135,9 @@ cd apicat
 <p><strong>GitHub:</strong> <a href="https://github.com/Nicolas121918">https://github.com/Nicolas121918</a></p>
 </div>
 </body>
+
+
+video : 
+https://github.com/user-attachments/assets/a156fe42-d4ff-40c3-909e-03e708e96697
 
 </html>
