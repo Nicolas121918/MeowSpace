@@ -132,7 +132,7 @@ cd App-fullstack
 </li>
 </ul>
 <hr>
-video : 
+video Uso de Aplicativo Web : 
 https://github.com/user-attachments/assets/a156fe42-d4ff-40c3-909e-03e708e96697
 <p><strong>Desarrollado por:</strong> Kevin Beltran</p>
 <p><strong>GitHub:</strong> <a href="https://github.com/Nicolas121918">https://github.com/Nicolas121918</a></p>
