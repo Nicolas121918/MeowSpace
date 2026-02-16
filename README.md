@@ -117,6 +117,7 @@ cd App-fullstack
 <h2 id="📦-entregables-adjuntos">📦 Entregables Adjuntos</h2>
 <ul>
 <li>
+  
 <p>✅ Código fuente completo en <strong>GitHub</strong>.</p>
 </li>
 <li>
@@ -131,13 +132,14 @@ cd App-fullstack
 </li>
 </ul>
 <hr>
+video : 
+https://github.com/user-attachments/assets/a156fe42-d4ff-40c3-909e-03e708e96697
 <p><strong>Desarrollado por:</strong> Kevin Beltran</p>
 <p><strong>GitHub:</strong> <a href="https://github.com/Nicolas121918">https://github.com/Nicolas121918</a></p>
 </div>
 </body>
 
 
-video : 
-https://github.com/user-attachments/assets/a156fe42-d4ff-40c3-909e-03e708e96697
+
 
 </html>
