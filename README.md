@@ -132,8 +132,12 @@ cd App-fullstack
 </li>
 </ul>
 <hr>
-video Uso de Aplicativo Web : 
-https://github.com/user-attachments/assets/a156fe42-d4ff-40c3-909e-03e708e96697
+
+<body class="stackedit">
+  <div class="stackedit__html"><h2 id="📺-video-demostrativo-del-proyecto-para-visualizar-el-funcionamiento-completo-del-sistema-frontend-backend-e-integración-con-mongodb-atlas">📺 Video Demostrativo del Proyecto Para visualizar el funcionamiento completo del sistema (Frontend, Backend e integración con MongoDB Atlas)</h2>
+<p><a href="https://github.com/user-attachments/assets/a156fe42-d4ff-40c3-909e-03e708e96697">https://github.com/user-attachments/assets/a156fe42-d4ff-40c3-909e-03e708e96697</a></p>
+</div>
+</body>
 <p><strong>Desarrollado por:</strong> Kevin Beltran</p>
 <p><strong>GitHub:</strong> <a href="https://github.com/Nicolas121918">https://github.com/Nicolas121918</a></p>
 </div>
