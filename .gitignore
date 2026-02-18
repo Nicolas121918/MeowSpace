@@ -1,0 +1,22 @@
+################ BACKEND ################
+target/
+build/
+.mvn/wrapper/maven-wrapper.jar
+*.log
+
+################ FRONTEND ################
+Frontend/Apicat/node_modules/
+Frontend/Apicat/dist/
+Frontend/Apicat/.angular/
+
+################ IDE ################
+.idea/
+.vscode/
+*.iml
+
+################ ENV ################
+.env
+
+################ OS ################
+.DS_Store
+Thumbs.db

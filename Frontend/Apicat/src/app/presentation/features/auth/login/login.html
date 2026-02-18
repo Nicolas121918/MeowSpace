@@ -1,0 +1,59 @@
+<div class="auth-container d-flex align-items-center justify-content-center">
+  <div class="auth-card shadow-lg p-4 bg-white">
+    <div class="text-center mb-4">
+      <h3 class="fw-bold"><span class="me-2">🐱</span>MeowSpace</h3>
+    </div>
+
+    <div class="toggle-container d-flex mb-4">
+      <button [class.active]="isLogin" (click)="toggleMode(true)" class="btn flex-fill">Iniciar Sesión</button>
+      <button [class.active]="!isLogin" (click)="toggleMode(false)" class="btn flex-fill">Registrarse</button>
+    </div>
+
+    <h4 class="text-center fw-bold">{{ isLogin ? 'Bienvenido de vuelta' : 'Crea tu cuenta' }}</h4>
+    <p class="text-center text-muted mb-4 small">
+      {{ isLogin ? 'Tu gatito te extrañaba. Inicia sesión para continuar.' : 'Únete a la comunidad gatuna más grande.' }}
+    </p>
+
+    <form [hidden]="!isLogin" (ngSubmit)="onLogin()">
+      <div class="input-group mb-3">
+        <span class="input-group-text bg-light border-end-0">👤<i class="bi bi-person"></i></span>
+        <input type="text" class="form-control bg-light border-start-0" placeholder=" Nombre de usuario" [(ngModel)]="loginData.username" name="user">
+      </div>
+      <div class="input-group mb-2">
+        <span class="input-group-text bg-light border-end-0">🔒<i class="bi bi-lock"></i></span>
+        <input type="password" class="form-control bg-light border-start-0" placeholder="Contraseña" [(ngModel)]="loginData.password" name="pass">
+        <span class="input-group-text bg-light border-start-0"><i class="bi bi-eye"></i></span>
+      </div>
+      <div class="text-end mb-4">
+        <a href="#" class="small text-orange text-decoration-none">¿Olvidaste tu contraseña?</a>
+      </div>
+      <button type="submit" class="btn btn-orange w-100 py-2 fw-bold mb-3">Entrar al mundo gatuno</button>
+    </form>
+
+    <form [hidden]="isLogin" (ngSubmit)="onRegister()">
+        <div class="input-group mb-3">
+          <span class="input-group-text bg-light border-end-0">👤<i class="bi bi-person"></i></span>
+          <input type="text" class="form-control bg-light border-start-0" placeholder="Nombre de usuario" [(ngModel)]="registerData.username" name="regUser">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text bg-light border-end-0">✉️<i class="bi bi-envelope"></i></span>
+            <input type="email" class="form-control bg-light border-start-0" placeholder="Correo electrónico" [(ngModel)]="registerData.email" name="regEmail">
+          </div>
+        <div class="input-group mb-4">
+          <span class="input-group-text bg-light border-end-0">🔒<i class="bi bi-lock"></i></span>
+          <input type="password" class="form-control bg-light border-start-0" placeholder="Contraseña" [(ngModel)]="registerData.password" name="regPass">
+        </div>
+        <button type="submit" class="btn btn-orange w-100 py-2 fw-bold">Crear cuenta</button>
+    </form>
+
+    <div class="text-center my-3">
+        <small class="text-muted">o continúa con</small>
+    </div>
+    <div class="d-flex gap-2">
+        <button class="btn btn-outline-secondary flex-fill small"><i class="bi bi-google me-2"></i>Google</button>
+        <button class="btn btn-outline-secondary flex-fill small"><i class="bi bi-github me-2"></i>GitHub</button>
+    </div>
+
+    <p class="text-center mt-4 extra-small text-muted">Hecho con amor para los amantes de los gatos 🐾</p>
+  </div>
+</div>

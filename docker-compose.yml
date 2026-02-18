@@ -20,8 +20,8 @@ services:
 
   # Frontend
   frontend:
-    build: ./Frontend/apicat
-    container_name: react_frontend
+    build: ./Frontend/Apicat
+    container_name: angular_frontend
     ports:
       - "80:80"
     depends_on:

@@ -12,7 +12,9 @@ import com.kevin.catapi.infrastructure.api.dto.BreedImagesResponse;
 @Component
 public class CatApiClient {
     private final RestTemplate restTemplate;
-    private final String API_URL = "https://api.thecatapi.com/v1";
+    @Value("${thecatapi.url}")
+    private String API_URL;
+
     @Value("${thecatapi.key}")
     private String API_KEY;
 
@@ -22,24 +24,23 @@ public class CatApiClient {
 
     // Método para el controlador de Gatos
     public BreedResponse[] getBreeds() {
-        // No uses getForObject, usa exchange para mandar la Key siempre
+        // usamos exchange para mandar la Key
         HttpHeaders headers = new HttpHeaders();
-        headers.set("x-api-key",API_KEY );
+        headers.set("x-api-key", API_KEY);
         HttpEntity<String> entity = new HttpEntity<>(headers);
 
         return restTemplate.exchange(
                 API_URL + "/breeds",
                 HttpMethod.GET,
                 entity,
-                BreedResponse[].class
-        ).getBody();
+                BreedResponse[].class).getBody();
     }
 
-    // NUEVO: Método para el controlador de Imágenes
+    // Método para el controlador de Imágenes
     public BreedImagesResponse[] getImagesByBreed(String breedId) {
         try {
 
-            String url = API_URL + "/images/search?breed_ids=" + breedId + "&limit=50";
+            String url = API_URL + "/images/search?breed_ids=" + breedId + "&limit=50&has_breeds=1";
 
             HttpHeaders headers = new HttpHeaders();
             headers.set("x-api-key", API_KEY);
@@ -50,5 +51,20 @@ public class CatApiClient {
             e.printStackTrace();
             return new BreedImagesResponse[0];
         }
+    }
+
+    // método para traer gatos En general
+    public BreedImagesResponse[] GetImagesLimit() {
+        String url = API_URL + "/images/search?limit=50&has_breeds=1";
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("x-api-key", API_KEY);
+        HttpEntity<String> entity = new HttpEntity<>(headers);
+
+        return restTemplate.exchange(
+                url,
+                HttpMethod.GET,
+                entity,
+                BreedImagesResponse[].class).getBody();
     }
 }

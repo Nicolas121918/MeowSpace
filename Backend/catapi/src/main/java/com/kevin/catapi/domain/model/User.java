@@ -6,7 +6,7 @@ public class User {
     private String password;
     private String email;
 
-    // Constructor vacío (necesario para algunas librerías)
+    // Constructor vacío 
     public User() {}
 
     // Constructor completo

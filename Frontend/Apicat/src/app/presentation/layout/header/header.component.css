@@ -1,0 +1,14 @@
+.top-header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+  background: #ffffff;
+}
+
+
+.profile-circle {
+
+  font-weight: bold;
+}

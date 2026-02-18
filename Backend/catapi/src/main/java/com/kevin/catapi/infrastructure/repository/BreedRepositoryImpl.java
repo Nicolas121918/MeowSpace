@@ -20,14 +20,14 @@ public class BreedRepositoryImpl implements BreedRepository {
 
     @Override
     public List<Breed> findAllBreeds() {
-        // 1. Llamamos al cliente que conecta con la API externa
+        //  Llamamos al cliente que conecta con la API externa
         BreedResponse[] responses = catApiClient.getBreeds();
 
         if (responses == null) {
             return new ArrayList<>();
         }
 
-        // 2. Convertimos (Mapeamos) de BreedResponse (Infraestructura) a Breed (Dominio)
+        //  recorremos el array y hacemos insercion
         List<Breed> breeds = new ArrayList<>();
         for (BreedResponse response : responses) {
             breeds.add(new Breed(
@@ -43,18 +43,17 @@ public class BreedRepositoryImpl implements BreedRepository {
 
     @Override
     public Breed findById(String id) {
-        // 1. Reutilizamos el método de arriba para obtener todos los gatos
+        //obtenemos todos los gatos
         List<Breed> allBreeds = findAllBreeds();
 
-        // 2. Buscamos manualmente el que coincida con el ID
         for (Breed breed : allBreeds) {
-            // Comparamos el ID ignorando mayúsculas/minúsculas por seguridad
+            // Comparamos el ID ignorando inconsistencias
             if (breed.getId().equalsIgnoreCase(id)) {
-                return breed; // Si lo encuentra, lo devuelve inmediatamente
+                return breed; 
             }
         }
 
-        // 3. Si recorre toda la lista y no encuentra nada, devuelve null
+        // null si no hay coincidencias
         return null;
     }
 }

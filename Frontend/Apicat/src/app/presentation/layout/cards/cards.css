@@ -1,0 +1,106 @@
+/* Contenedor General */
+.home-container {
+  padding-bottom: 50px;
+}
+
+/* Tarjetas de Estadísticas */
+.stat-card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  transition: transform 0.2s;
+}
+
+.stat-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.stat-label { margin-bottom: 0; font-size: 13px; color: #888; }
+.stat-value { margin: 0; font-weight: 700; color: #333; }
+.stat-diff { font-size: 11px; color: #aaa; }
+
+/* Buscador y Filtro */
+.search-wrapper {
+  background: white;
+  border-radius: 12px;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.custom-filter {
+  height: 50px;
+  border-radius: 12px;
+  padding-left: 15px;
+}
+
+/* Tarjeta de Gato */
+.cat-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.cat-card:hover { transform: translateY(-5px); }
+
+.cat-img-wrapper {
+  position: relative;
+  height: 220px;
+}
+
+.cat-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.badge-age {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  background: rgba(255,255,255,0.9);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.btn-fav {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: white;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.cat-body { padding: 20px; }
+.cat-name { margin-bottom: 4px; font-weight: 700; }
+.cat-breed { font-size: 13px; font-weight: 600; margin-bottom: 10px; }
+.cat-desc { font-size: 13px; color: #777; line-height: 1.4; }
+
+/* Colores de Marca */
+.bg-orange-light { background-color: #fff5ed; }
+.text-orange { color: #e67e33; }
+.bg-pink-light { background-color: #fff0f3; }
+.text-pink { color: #ff4d6d; }
+.bg-blue-light { background-color: #f0f7ff; }
+.text-blue { color: #0077ff; }
+.bg-green-light { background-color: #f0fff4; }
+.text-green { color: #2ecc71; }

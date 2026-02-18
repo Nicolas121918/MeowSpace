@@ -1,0 +1,53 @@
+.auth-container {
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 25px;
+}
+
+.btn-orange {
+    background-color: #eb8c44;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+.text-orange {
+    color: #eb8c44;
+}
+
+.toggle-container {
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.toggle-container .btn {
+    border: none;
+    border-radius: 10px;
+    color: #777;
+    transition: 0.3s;
+}
+
+.toggle-container .btn.active {
+    background-color: #eb8c44;
+    color: white;
+}
+
+.input-group-text {
+    border: none;
+    color: #aaa;
+}
+
+.form-control {
+    border: none;
+    padding: 12px;
+}
+
+.extra-small {
+    font-size: 0.75rem;
+}
