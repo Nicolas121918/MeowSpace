@@ -94,7 +94,7 @@
 <h3 id="clonar-el-repositorio"><strong>1. Clonar el repositorio</strong></h3>
 <p>Bash</p>
 <pre><code>git clone https://github.com/Nicolas121918/MeowSpace.git
-cd App-fullstack
+cd MeowSpace
 
 </code></pre>
 <h3 id="levantar-la-infraestructura-con-docker"><strong>2. Levantar la infraestructura con Docker</strong></h3>
@@ -107,7 +107,7 @@ cd App-fullstack
 <p>Una vez que los contenedores estén en ejecución (Status: Running), abre tu navegador en:</p>
 <ul>
 <li>
-<p><strong>Frontend:</strong> <code>bash http://localhost:4200</code></p>
+<p><strong>Frontend:</strong> <code>bash http://localhost:80</code></p>
 </li>
 <li>
 <p><strong>Backend API:</strong> <code>bash http://localhost:8080</code></p>
@@ -130,12 +130,16 @@ cd App-fullstack
 <li>
 <p>✅ Suite de <strong>Pruebas Unitarias</strong> funcional.</p>
 </li>
+
+https://github.com/user-attachments/assets/f1fc8d96-67f9-4a9f-a31b-7630fae58383
+
+
 </ul>
 <hr>
 
 <body class="stackedit">
   <div class="stackedit__html"><h2 id="📺-video-demostrativo-del-proyecto-para-visualizar-el-funcionamiento-completo-del-sistema-frontend-backend-e-integración-con-mongodb-atlas">📺 Video Demostrativo del Proyecto Para visualizar el funcionamiento completo del sistema (Frontend, Backend e integración con MongoDB Atlas)</h2>
-<p><a href="https://github.com/user-attachments/assets/a156fe42-d4ff-40c3-909e-03e708e96697">https://github.com/user-attachments/assets/a156fe42-d4ff-40c3-909e-03e708e96697</a></p>
+<p><a href="https://github.com/user-attachments/assets/a156fe42-d4ff-40c3-909e-03e708e96697">https://github.com/user-attachments/assets/f1fc8d96-67f9-4a9f-a31b-7630fae58383</a></p>
 </div>
 </body>
 <p><strong>Desarrollado por:</strong> Kevin Beltran</p>
