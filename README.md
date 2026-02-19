@@ -131,7 +131,6 @@ cd MeowSpace
 <p>✅ Suite de <strong>Pruebas Unitarias</strong> funcional.</p>
 </li>
 
-https://github.com/user-attachments/assets/f1fc8d96-67f9-4a9f-a31b-7630fae58383
 
 
 </ul>
@@ -139,7 +138,7 @@ https://github.com/user-attachments/assets/f1fc8d96-67f9-4a9f-a31b-7630fae58383
 
 <body class="stackedit">
   <div class="stackedit__html"><h2 id="📺-video-demostrativo-del-proyecto-para-visualizar-el-funcionamiento-completo-del-sistema-frontend-backend-e-integración-con-mongodb-atlas">📺 Video Demostrativo del Proyecto Para visualizar el funcionamiento completo del sistema (Frontend, Backend e integración con MongoDB Atlas)</h2>
-<p><a href="https://github.com/user-attachments/assets/a156fe42-d4ff-40c3-909e-03e708e96697">https://github.com/user-attachments/assets/f1fc8d96-67f9-4a9f-a31b-7630fae58383</a></p>
+<p><a href="https://github.com/user-attachments/assets/f1fc8d96-67f9-4a9f-a31b-7630fae58383"></a></p>
 </div>
 </body>
 <p><strong>Desarrollado por:</strong> Kevin Beltran</p>
